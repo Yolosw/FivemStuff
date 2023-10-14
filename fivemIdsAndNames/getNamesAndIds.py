@@ -1,7 +1,7 @@
 import requests
 
 ip = input("Ip Address of the server: ")
-url = "http://"+ ip + ":30120/players.json"
+url = f"http://{ip}:30120/players.json"
 
 response = requests.get(url)
 
